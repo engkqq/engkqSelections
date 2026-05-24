@@ -4,10 +4,10 @@
  * Dibuat oleh Engkq - 2026
  */
 
-#if defined _e_selections_included
+#if defined _engkq_selections_included
     #endinput
 #endif
-#define _e_selections_included
+#define _engkq_selections_included
 
 #include <open.mp>
 
@@ -195,7 +195,7 @@ stock ShowPlayereSelection(playerid, const headerTitle[], extraid, const models[
     PlayerTextDrawSetSelectable(playerid, EngkqNextButton[playerid], true);
 
     // =============================================================================
-    // LOGIKA GRID OTOMATIS: 15 Slot Mengikuti Koordinat Ori Kebawah
+    // LOGIKA GRID OTOMATIS: 15 Slot
     // =============================================================================
     // Koordinat Posisi X asli dari 5 slot buatanmu
     new Float:slotPosX[5] = {151.000, 214.000, 285.000, 354.000, 418.000};
@@ -222,7 +222,6 @@ stock ShowPlayereSelection(playerid, const headerTitle[], extraid, const models[
         PlayerTextDrawSetSelectable(playerid, EngkqPilihan[playerid][i], true);
     }
 
-    // Tampilkan Komponen Dasar ke Layar
     for(new i = 0; i < 9; i++) PlayerTextDrawShow(playerid, EngkqSelections[playerid][i]);
     PlayerTextDrawShow(playerid, EngkqJudul[playerid]);
     PlayerTextDrawShow(playerid, EngkqSelectButton[playerid]);
