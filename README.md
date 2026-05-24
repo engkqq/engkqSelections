@@ -1,16 +1,16 @@
 # eSelections.inc 
  
-\`eSelections.inc\` adalah sebuah *library* (include) kustom untuk framework **open.mp** / SA-MP yang dirancang untuk membuat antarmuka pemilihan model visual (Skin, Kendaraan, atau Objek) secara dinamis menggunakan Player TextDraw. 
+`eSelections.inc` adalah sebuah *library* (include) kustom untuk framework **open.mp** / SA-MP yang dirancang untuk membuat antarmuka pemilihan model visual (Skin, Kendaraan, atau Objek) secara dinamis menggunakan Player TextDraw. 
  
-Include ini dibuat sebagai alternatif yang jauh lebih ringan, rapi, dan optimal dibanding \`mSelection.inc\` lama, dengan memanfaatkan optimasi perulangan (*looping*) grid koordinat untuk menghemat penggunaan alokasi memori TextDraw server. 
+Include ini dibuat sebagai alternatif yang jauh lebih ringan, rapi, dan optimal dibanding `mSelection.inc` lama, dengan memanfaatkan optimasi perulangan (*looping*) grid koordinat untuk menghemat penggunaan alokasi memori TextDraw server. 
  
 --- 
  
 ## Preview Layout 
  
-Berikut adalah tampilan menunya slot dari `eSelections.inc`: 
+Berikut adalah tampilan menu slot dari `eSelections.inc`: 
  
-![eSelections Preview](https://raw.githubusercontent.com/engkqq/eSelections/main/eSelections/Screenshot%20(387).png) 
+![eSelections Preview](Screenshot%20(387).png)
  
 --- 
  
