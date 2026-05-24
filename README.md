@@ -58,7 +58,7 @@ Buat file teks di dalam folder `scriptfiles` (misalnya: `skins_male.txt`) dan is
 CMD:pilihskin(playerid, params[]) 
 { 
     // Membuka file skins_male.txt dengan penanda ExtraID = 1 
-    ShowPlayereSelectionFromFile(playerid, "Pilih Skin Karakter", 1, "skins_male.txt"); 
+    ShowPlayereSelectionEngkq(playerid, "Pilih Skin Karakter", 1, "skins_male.txt"); 
     return 1; 
 }
 ```
