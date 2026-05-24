@@ -81,3 +81,15 @@ public OnPlayerSelectEModel(playerid, extraid, index, modelid)
  
 ## Credits 
 * **Engkq** -- Creator & Developer 
+
+---
+
+## Contributors
+<div align="center">
+ 
+<a href="https://github.com/engkqq/eSelections/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=engkqq/eSelections" alt="Contributors List" />
+</a>
+
+Silakan kirim Pull Request jika ingin menambahkan fitur baru atau memperbaiki bug!
+</div>
