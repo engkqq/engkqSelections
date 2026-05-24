@@ -31,7 +31,7 @@ Berikut adalah tampilan menu slot dari `engkqSelections.inc`:
 ShowPlayereSelection(playerid, const headerTitle[], extraid, const models[], total_models); 
  
 // Membuka menu dengan membaca file teks secara langsung dari folder scriptfiles 
-ShowPlayereSelectionFromFile(playerid, const headerTitle[], extraid, const fileName[]); 
+ShowPlayereSelectionEngkq(playerid, const headerTitle[], extraid, const fileName[]); 
  
 // Menutup menu, menghapus memori TextDraw pemain, dan menghilangkan kursor mouse 
 HidePlayereSelection(playerid); 
