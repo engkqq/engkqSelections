@@ -1,6 +1,6 @@
-# eSelections.inc 
+# engkqSelections.inc 
  
-`eSelections.inc` adalah sebuah *library* (include) kustom untuk framework **open.mp** / SA-MP yang dirancang untuk membuat antarmuka pemilihan model visual (Skin, Kendaraan, atau Objek) secara dinamis menggunakan Player TextDraw. 
+`engkqSelections.inc` adalah sebuah *library* (include) kustom untuk framework **open.mp** / SA-MP yang dirancang untuk membuat antarmuka pemilihan model visual (Skin, Kendaraan, atau Objek) secara dinamis menggunakan Player TextDraw. 
  
 Include ini dibuat sebagai alternatif yang jauh lebih ringan, rapi, dan optimal dibanding `mSelection.inc` lama, dengan memanfaatkan optimasi perulangan (*looping*) grid koordinat untuk menghemat penggunaan alokasi memori TextDraw server. 
  
@@ -8,7 +8,7 @@ Include ini dibuat sebagai alternatif yang jauh lebih ringan, rapi, dan optimal 
  
 ## Preview Layout 
  
-Berikut adalah tampilan menu slot dari `eSelections.inc`: 
+Berikut adalah tampilan menu slot dari `engkqSelections.inc`: 
  
 ![eSelections Preview](Screenshot%20(387).png)
  
@@ -42,7 +42,7 @@ HidePlayereSelection(playerid);
 ## Cara Penggunaan Singkat 
  
 ### 1. Setup File di `scriptfiles` 
-Buat file teks di dalam folder `scriptfiles/` (misalnya: `skins_male.txt`) dan isi dengan daftar ID model secara vertikal: 
+Buat file teks di dalam folder `scriptfiles` (misalnya: `skins_male.txt`) dan isi dengan daftar ID model secara vertikal: 
 ```text
 26 
 21 
@@ -88,7 +88,7 @@ public OnPlayerSelectEModel(playerid, extraid, index, modelid)
 <div align="center">
  
 <a href="https://github.com/engkqq/eSelections/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=engkqq/eSelections" alt="Contributors List" />
+  <img src="https://contrib.rocks/image?repo=engkqq/engkqSelections" alt="Contributors List" />
 </a>
 
 Silakan kirim Pull Request jika ingin menambahkan fitur baru atau memperbaiki bug!
