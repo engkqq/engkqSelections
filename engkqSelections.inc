@@ -197,10 +197,9 @@ stock ShowPlayereSelection(playerid, const headerTitle[], extraid, const models[
     // =============================================================================
     // LOGIKA GRID OTOMATIS: 15 Slot
     // =============================================================================
-    // Koordinat Posisi X asli dari 5 slot buatanmu
     new Float:slotPosX[5] = {151.000, 214.000, 285.000, 354.000, 418.000};
-    new Float:startPosY = 116.000; // Koordinat Y asli baris pertama
-    new Float:spacingY = 82.000;   // Jarak kebawah agar muat 3 baris di dalam box background
+    new Float:startPosY = 116.000;
+    new Float:spacingY = 82.000;
 
     for(new i = 0; i < E_SELECTION_MAX_SLOTS; i++) 
     {
